@@ -1,0 +1,6 @@
+# ninja log v6
+5	434	7376565012776333	CMakeFiles/main.dir/app/main.cpp.obj	869daf088f8eef7b
+15	84	7376554588106595	CMakeFiles/anim.dir/app/animal.cpp.obj	5c2a13f9382b992d
+84	172	7376554589621084	libanim.dll	e871ba68cf75e4e2
+84	172	7376554589621084	libanim.dll.a	e871ba68cf75e4e2
+435	533	7376565017075634	main.exe	204231ea4acb6474

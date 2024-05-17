@@ -1,0 +1,1 @@
+set(APP_DIR ${CMAKE_SOURCE_DIR}/app)
