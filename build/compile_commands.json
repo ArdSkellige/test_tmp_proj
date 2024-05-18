@@ -1,14 +1,14 @@
 [
 {
-  "directory": "C:/projects/test_tmp_proj/build",
-  "command": "C:\\msys64\\mingw64\\bin\\g++.exe -Danim_EXPORTS -g -std=gnu++20 -o CMakeFiles\\anim.dir\\app\\animal.cpp.obj -c C:\\projects\\test_tmp_proj\\app\\animal.cpp",
-  "file": "C:\\projects\\test_tmp_proj\\app\\animal.cpp",
+  "directory": "C:/VS Code/MyProjects/tmp_test_cmake/test_tmp_proj/build",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe -Danim_EXPORTS -g -std=gnu++20 -o CMakeFiles\\anim.dir\\app\\animal.cpp.obj -c \"C:\\VS Code\\MyProjects\\tmp_test_cmake\\test_tmp_proj\\app\\animal.cpp\"",
+  "file": "C:\\VS Code\\MyProjects\\tmp_test_cmake\\test_tmp_proj\\app\\animal.cpp",
   "output": "CMakeFiles\\anim.dir\\app\\animal.cpp.obj"
 },
 {
-  "directory": "C:/projects/test_tmp_proj/build",
-  "command": "C:\\msys64\\mingw64\\bin\\g++.exe -g -std=gnu++20 -o CMakeFiles\\main.dir\\app\\main.cpp.obj -c C:\\projects\\test_tmp_proj\\app\\main.cpp",
-  "file": "C:\\projects\\test_tmp_proj\\app\\main.cpp",
+  "directory": "C:/VS Code/MyProjects/tmp_test_cmake/test_tmp_proj/build",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe -g -std=gnu++20 -o CMakeFiles\\main.dir\\app\\main.cpp.obj -c \"C:\\VS Code\\MyProjects\\tmp_test_cmake\\test_tmp_proj\\app\\main.cpp\"",
+  "file": "C:\\VS Code\\MyProjects\\tmp_test_cmake\\test_tmp_proj\\app\\main.cpp",
   "output": "CMakeFiles\\main.dir\\app\\main.cpp.obj"
 }
 ]

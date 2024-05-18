@@ -58,12 +58,12 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "C:/projects/test_tmp_proj/build",
-		"source" : "C:/projects/test_tmp_proj"
+		"build" : "C:/VS Code/MyProjects/tmp_test_cmake/test_tmp_proj/build",
+		"source" : "C:/VS Code/MyProjects/tmp_test_cmake/test_tmp_proj"
 	},
 	"version" : 
 	{
 		"major" : 2,
-		"minor" : 6
+		"minor" : 7
 	}
 }

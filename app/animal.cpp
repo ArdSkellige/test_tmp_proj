@@ -16,7 +16,6 @@ Animal::Animal(const Animal& other)
 {
    if(other.name)
    {
-      delete[] name;
       name = new char[strlen(other.name) + 1];
       strcpy(name, other.name);
    }
