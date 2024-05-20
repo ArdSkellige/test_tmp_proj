@@ -20,20 +20,20 @@ TEST(ARRAYS, Sorting)
 
 TEST(ANIMAL, FullCompare)
 {
-    // Animal an1("Rex", 4);
-    // Animal an2("Spike", 2);
-    // EXPECT_NE(an1, an2);
+    Animal an1("Rex", 4);
+    Animal an2("Spike", 2);
+    EXPECT_NE(an1, an2);
 
-    // Animal an3(an2);
-    // EXPECT_EQ(an2, an3);
+    Animal an3(an2);
+    EXPECT_EQ(an2, an3);
 }
 
-// TEST(ANIMAL, CompareName)
-// {
-//     Animal an1("Rex");
-//     Animal an2("Spike");
-//     EXPECT_NE(an1.GetAnimalName(), an2.GetAnimalName());
+TEST(ANIMAL, CompareName)
+{
+    Animal an1("Rex");
+    Animal an2("Spike");
+    EXPECT_NE(an1.GetAnimalName(), an2.GetAnimalName());
 
-//     Animal an3("Rex", 7);
-//     EXPECT_EQ(an1.GetAnimalName(), an3.GetAnimalName());
-// }
+    Animal an3("Rex", 7);
+    EXPECT_EQ(an1.GetAnimalName(), an3.GetAnimalName());
+}

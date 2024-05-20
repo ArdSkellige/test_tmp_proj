@@ -1,5 +1,4 @@
 #region Tests
-include(CTest)
 enable_testing()
 
 include(FetchContent)
