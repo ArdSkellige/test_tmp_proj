@@ -2,7 +2,8 @@
 #include <algorithm>
 #include <string>
 
-#include "animal.hpp"
+#include "../app/funcs.hpp"
+#include "../app/animal.hpp"
 
 using std::cout;
 using std::endl;
@@ -33,6 +34,14 @@ int main()
   Animal animal2("Kot");
   string str2 = animal2.GetAnimalName();
   cout << "Animal name is " << str2 << endl;
+
+  int ar[] = {3, 7, 1, 10, 0, 4, 5, 3, 5, 2, 9, 8};
+  SortArray(ar, sizeof(ar)/sizeof(ar[0]));
+  for (size_t i = 0; i < sizeof(ar)/sizeof(ar[0]); i++)
+  {
+    cout << ar[i] << " ";
+  }
+  cout << endl;
   
 
   return 0;

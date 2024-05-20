@@ -1,4 +1,0 @@
-C:/VS Code/MyProjects/tmp_test_cmake/test_tmp_proj/build/CMakeFiles/anim.dir
-C:/VS Code/MyProjects/tmp_test_cmake/test_tmp_proj/build/CMakeFiles/main.dir
-C:/VS Code/MyProjects/tmp_test_cmake/test_tmp_proj/build/CMakeFiles/edit_cache.dir
-C:/VS Code/MyProjects/tmp_test_cmake/test_tmp_proj/build/CMakeFiles/rebuild_cache.dir
