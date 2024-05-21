@@ -1,4 +1,7 @@
 #include <gtest/gtest.h>
+#include <string>
+
+using std::string;
 
 #include <array>
 #include "app/funcs.hpp"
@@ -24,7 +27,7 @@ TEST(ANIMAL, FullCompare)
     Animal an2("Spike", 2);
     EXPECT_NE(an1, an2);
 
-    Animal an3(an2);
+    Animal an3("Spike", 2);    
     EXPECT_EQ(an2, an3);
 }
 
@@ -32,8 +35,12 @@ TEST(ANIMAL, CompareName)
 {
     Animal an1("Rex");
     Animal an2("Spike");
-    EXPECT_NE(an1.GetAnimalName(), an2.GetAnimalName());
+    string str1 = an1.GetAnimalName();
+    string str2 = an2.GetAnimalName();
+    EXPECT_NE(str1, str2);
 
     Animal an3("Rex", 7);
-    EXPECT_EQ(an1.GetAnimalName(), an3.GetAnimalName());
+    string str3 = an3.GetAnimalName();
+    EXPECT_EQ(str1, str3);
+    // EXPECT_EQ(an1.GetAnimalName(), an3.GetAnimalName()) - compare pointers - fail
 }

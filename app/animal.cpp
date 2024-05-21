@@ -59,6 +59,6 @@ bool Animal::operator==(const Animal& other) const
 {
    if(this != &other)
    {
-      return strcmp(name, other.name) && (age == other.age);
+      return (!strcmp(this->name, other.name) && (this->age == other.age));
    }
 }
