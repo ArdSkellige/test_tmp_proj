@@ -1,17 +1,23 @@
-#pragma once
+#ifndef ANIMAL_HPP
+#define ANIMAL_HPP
 
 class Animal
 {
 private:
-   char* name;
-   int age;
+	int age;
+	char* name;
 public:
-   Animal(const char* _name = "Undef", int _age = 0);
-   ~Animal();
-   Animal(const Animal& other);
-   Animal& operator=(const Animal& other);
+	Animal(int _age = 2, const char* _name = "Undef");
+	Animal(const Animal& other);
+	~Animal();
 
-   void SetAnimalName(const char* _name);
-   const char* GetAnimalName() const;
-   bool operator==(const Animal& other) const;   
+	const char* Voice();
+	void SetAnimalName(const char* _name);
+	int GetAge() const { return age; }
+	const char* GetName() const { return name; }
+
+	Animal& operator=(const Animal& other);
+	bool operator==(const Animal& other) const;
 };
+
+#endif /* ANIMAL_HPP */

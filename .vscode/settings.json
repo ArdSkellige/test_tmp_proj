@@ -24,5 +24,8 @@
   },
   "gtest-adapter.debugConfig": [
     "Debug: DESKTOP"
-  ]
+  ],
+  "files.associations": {
+    "ostream": "cpp"
+  }
 }
