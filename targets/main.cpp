@@ -40,7 +40,7 @@ int main()
 
 	cout << "Vector: " << endl;
 	vector<int> vec;
-	for (int i = 0; i < 7; i++)
+	for (int i = 0; i < 9; i++)
 	{
 		vec.push_back(i + 10);
 	}
@@ -49,6 +49,7 @@ int main()
 		cout << vec[i] << " ";
 	}
 	cout << endl;
+
 	int ind = 2;
 	vector<int> tmp;
 	for (int i = 0; i < vec.size(); i++)
@@ -64,12 +65,21 @@ int main()
 		cout << vec[i] << " ";
 	}
 	cout << endl;
-	vector<int>::reverse_iterator itb = vec.rbegin(), ite = vec.rend();
-	vec.erase(--(itb.base()));
-	itb = vec.rbegin();
+
+	vector<int>::iterator itb = vec.begin(), ite = vec.end();
+	vec.erase(itb + 1);
 	for (int i = 0; i < vec.size(); i++)
 	{
 		cout << *(itb + i) << " ";
+	}
+	cout << endl;
+
+	vector<int>::reverse_iterator ritb = vec.rbegin(), rite = vec.rend();
+	vec.erase(--(ritb.base() - 3));
+	ritb = vec.rbegin();
+	for (int i = 0; i < vec.size(); i++)
+	{
+		cout << *(ritb + i) << " ";
 	}
 	cout << endl;
 
